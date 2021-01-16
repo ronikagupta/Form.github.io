@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <style type="text/css">
+    *{
+      margin:0;
+      padding:0;
+    }
+    body{
+      background-image:url(form18.jpg);
+      background-position: center;
+      background-size: cover;
+      font-family: sans-serif;
+      margin-top: 40px;
+    }
+    .regform{
+      width:800pz;
+      background-color: rgb(0,0,0,6);
+      margin: auto;
+      color: #FFFFFF;
+      padding: 10px 0px 10px 0px;
+      text-align:center;
+      border-radius: 15px 15px 0px 0px;
+    }
+    .main{
+      background-color: rgb(0,0,0,0,5);
+      width:800px;
+      margin: auto;
+    }
+    form{
+      padding: 10px;
+    }
+    #name{
+      width:100%;
+      height:100px;
+    }
+    .name{
+      margin-left:25px;
+      margin-top:15px;
+      width:125px;
+      color:black;
+      font-size:18px;
+      font-weight: 700px;
+      top:-150px;
+    }
+    .firstname{
+      position:relative;
+      left:200px;
+      top:-37px;
+      line-height:40px;
+      border-radius: 6px;
+      text-emphasis-color: black;
+      padding:0 22px;
+      font-size: 16px;
+    }
+    .first_label{
+      position: relative;
+      color: #E5E5E5;
+      text-transform: capitalize;
+      font-size: 14px;
+      left:203px;
+      top:-46px;
+    }
+    .email{
+      position: relative;
+      left:200px;
+      top:-37px;
+      line-height: 40px;
+      width:250px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+      color:555;
+    }
+    .age{
+      position: relative;
+      left:200px;
+      top:-37px;
+      line-height: 40px;
+      width:250px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+      color:555;
+    }
+    .Dev
+    {
+      position: relative;
+      left:200px;
+      top:-37px;
+      line-height: 40px;
+      width:150px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+      color:555;
+    }
+    .like{
+      position: relative;
+      left:200px;
+      top:-70px;
+      line-height: 40px;
+      width:150px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+      color:555;
+    }
+    .code{
+      position: relative;
+      left:200px;
+      top:-125px;
+      line-height: 40px;
+      width:250px;
+      border-radius: 6px;
+      padding: 0 50px;
+      font-size: 16px;
+      color:555;
+    }
+    .cheak{
+      position: relative;
+      left:200px;
+      top:-150px;
+      line-height: 40px;
+      width:250px;
+      border-radius: 6px;
+      padding: 0 50px;
+      font-size: 16px;
+      color:555;
+    }
+   
+   .likely{
+    margin-left:25px;
+      margin-top:-10px;
+      width:125px;
+      color: black;
+      font-size:18px;
+      font-weight: 700px;
+      top:-10px;
+    }
+   
+
+    
+
+    </style>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="regform"><h1>Survey Form</h1></div>
+    <div class="main">
+      <form action="">
+      <div id="name">
+        <h4 class="name">Name :</h4>
+        <input class="firstname" type="text" name="first_name"placeholder="Enater your Name"><br>
+        <label class="first_label"></label>
+        <h4 class="name">Email :</h4>
+        <input class="email" type="text" name="first_name"placeholder="Enter your Email">
+        <label class="email_label"></label>
+        
+        <h4 class="name">Age : </h4>
+        <select name="cars" class="custom-select-sm age " >
+          <option selected>Age</option>
+          <option value="volvo">20</option>
+          <option value="fiat">21</option>
+          <option value="audi">22</option>
+          <option value="audi">23</option>
+          <option value="audi">24</option>
+          <option value="audi">25</option>
+          <option value="audi">26</option>
+          <option value="audi">27</option>
+          <option value="audi">28</option>
+          <option value="audi">29</option>
+          <option value="audi">30</option>
+        </select><br>
+
+        <h4 class="name">Your Current Role :</h4>
+        <select name="car" class="custom-select-sm Dev">
+          <option selected>Student</option>
+          <option value="volvo">Frontend Devloper</option>
+          <option value="fiat">Sofyware Devloper</option>
+          <option value="audi">Backend Devloper</option>
+          </select><br>
+         <h4 class="name"> How likely is that you recomended freeCodeCamp to a friend?</h4>
+         <div class="code">
+      <input type="radio" class="custom-control-input " id="customRadio" name="example1">
+      <label class="custom-control-label" for="customRadio">Definatly</label>
+      <input type="radio" class="custom-control-input" id="customRadio" name="example1">
+      <label class="custom-control-label" for="customRadio">Maybe</label>
+      <input type="radio" class="custom-control-input" id="customRadio" name="example1">
+      <label class="custom-control-label" for="customRadio">Not Sure</label><br>
+      </div>
+
+      <h4 class="likely">what do yoy like most in FCC</h4>
+      <select name="cars" class="custom-select-sm like" >
+        <option selected>Student</option>
+        <option value="volvo">Select an option</option>
+        <option value="fiat">a</option>
+        <option value="audi">b</option>
+        </select><br>
+
+        <h4 class="name">things that should we improve in future <br>
+        cheak all that apply </h4>
+        <div class="form-check cheak">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            Frontend project
+          </label>
+        </div>
+        <div class="form-check cheak">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+          <label class="form-check-label" for="flexCheckChecked">
+            Backend Project
+          </label>
+        </div>
+        <div class="form-check cheak">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+          <label class="form-check-label" for="flexCheckChecked">
+            Data Visualization
+          </label>
+        </div>
+        <div>
+        <button type="submit" class="btn btn-primary code">Submit</button>
+        </div>
+
+      </form>
+</div>
+</div>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
